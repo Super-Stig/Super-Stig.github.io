@@ -1,1 +1,1 @@
-# MythicPheonix.github.io
+# mythicpheonix.github.io
