@@ -1,0 +1,49 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349.49 349.49">
+    <defs>
+                <style type="text/css">
+            .st0{
+                fill:none;
+                stroke:#fff;
+                stroke-miterlimit:8;
+                stroke-width:7px;
+            }
+            .st1{
+                fill:none;
+                stroke:#fff;
+                stroke-miterlimit:5;
+                stroke-width:15px;
+            }
+        </style>
+    <defs>
+        <style>
+
+            .st0{
+                stroke-dasharray:1100;
+                stroke-dashoffset:;
+                animation:dash 1s linear infinite;
+            }
+             .st1{
+                stroke-dasharray:20;
+                stroke-dashoffset:100;
+                animation:dash 5s linear infinite;
+            }
+
+            @keyframes dash {
+                from{
+                    stroke-dashoffset:1000;
+                }
+                to{
+                    stroke-dashoffset:0;
+                }
+
+            }
+
+        </style>
+    </defs>
+    </defs>
+    <title>
+    loading animation path
+    </title>
+    <circle class="st0" cx="174.75" cy="174.75" r="172.75"/>
+    <circle class="st1" cx="174.75" cy="174.75" r="107.92"/>
+</svg>

@@ -1,127 +1,565 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mallory's Design Portfolio</title>
+    <title>The Mythic Phoenix (Cameron's Portfolio)</title>
     
     <meta charset="utf-8">
     
-    <meta name="description" content="Beautiful Graphic Design">
+    <meta name="description" content="UI-UX design Portfolio">
 
-    <meta name="keywords" content="graphic, design, freelance, photography.">
+    <meta name="keywords" content="graphic, design, freelance, photography, UI, UX, Designer, programer.">
 
-    <meta name= "viewpoint" content="width=device-width,initial-scale.0">
+    <meta name= "viewpoint" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300&display=swap" rel="stylesheet">
     
-        <img src="img/mallory-01.png" alt="logo">
-          <nav>
-        <ul>
-            <li>
-                <a href="about.html">
-                    ABOUT ME
-                </a>
-            </li> 
-            <li>
-                <a href="portfolio.html">
-                    PORTFOLIO
-                </a>
-            </li> 
-            <li>
-                <a href="contact.html">
-                    CONTACT
-                </a>
-            </li>
-            <li>
-                <a href="Index.html">
-                    HOME
-                </a>
-            </li>
-        </ul>
-    </nav>
-        
-        <img src="img/header.png" alt="Header" style="width:100%">
-
-        <h1>
-            WELCOME TO MY PORTFOLIO!
-        </h1>
-        <p id="intro2">
-            I've been working in graphic design for 7yrs and loved every minute of it! My work experiences spans across multiple medias including but not limited to:Layout, print, email and web design.
-        </p>
-
-        <div class="row">
-            <div class="column">
-                <h1>
-                    I AM A FREELANCE GRAPHIC DESIGNER
-                </h1>
-                <img src="img/columnicons-02.png">
-            </div>
-            <div class="column2">
-                <h1 class="header1">
-                    AND A DESIGN INSTRUCTOR
-                </h1>
-                <img src="img/columnicons-01.png">
-            </div>
-        </div>
-        
-        <h1>
-            TAKE A LOOK AT SOME OF MY WORK
-        </h1>
-        
-        <p id="intro2">
-                Over the years, I've created countless designs. Below are a few of my favorites. visit my 
-                    <a href="portfolio.html">
-                    portfolio page
-                    </a> 
-                to look at more of my work!
-            </p>
     
+<body id="body">
+    <div id="sidepanal" class="sidepanal">
         
-    <div class="container">
-        <div class="gallery">
-            <a href="img/portfolio-1.jpg" target="_blank">
-                <img src="img/portfolio-1.jpg" alt="portfolio1" width="900px" height="600px">
-            </a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                <h2>Email</h2>
+                <a id="mail" href="mailto:camtheman33@gmail.com">
+                    <p>camtheman33@gmail.com</p>
+                </a>
+                <h2>Phone Number</h2>
+                <p>1-435-680-8880</p>
+                <p style="margin-top: -23px;">Text or call</p>
+        
+    </div>
+    <div>
+        <nav class="nav">
+            <ul>
+                 <li>
+                    <a id="logo">
+                         <img class="smallLogo" src="img/phoenix logo.png" alt="missing phoenix">
+                    </a>
+                </li>
+                <li>
+                    <a id="home" href="#test" onClick="home(); resumeScrole();">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a id="portfolio" href="#test" onClick="start(); resumeScrole();">
+                        PORTFOLIO
+                    </a>
+            
+                </li> 
+                <li>
+                    <a id="contact" href="#test" onClick="openNav();">
+                        CONTACT
+                    </a>
+                </li>
+                <li>
+                    <a id="aboutme" href="#test" onClick="about(); noScrole();">
+                        ABOUT ME
+                    </a>
+        <div id="loading" class="loading" style="display:none">
+        
+            <object>
+                <embed class="loading" src="JavaScript/loading%20animation%20path.svg">
+            </object>
+            
         </div>
-        <div class="gallery">
-            <a href="img/portfolio-2.jpg" target="_blank">
-                <img src="img/portfolio-2.jpg" alt="portfolio1" width="900px" height="600px">
-            </a>
+                </li> 
+            </ul>
+        </nav>
+    </div>
+
+    
+     <!-- Home part of the website. Note needs animation for the logo. -->
+    
+
+    <div id='#home'>
+       
+            <img class="logo"  src="img/logo.svg" alt="logo">
+    <div  id="particles-js" ></div>
+    </div>
+    
+    
+    
+   
+    <!-- this is the table for the portfolio. -->
+    
+    
+    
+    <div class="containment">
+        <object class="animation">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="first">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="second">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="third">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="forth">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="fifth">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="sixth">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="seventh">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="eighth">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="nine">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="ten">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="eleven">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twelve">
+            <img src="img/Static.svg">
+        </object>
+        <object  class="animation" id="thirteen">
+            <img src="img/Static.svg">
+        </object>
+        <object  class="animation" id="fourteen">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="fifteen">
+            <img src="img/Static.svg">
+        </object>
+        <object  class="animation" id="sixteen">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="seventeen">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="eighteen">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="nineteen">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twenty">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twentyone">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twentytwo">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twentythree">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twentyfour">
+            <img src="img/Static.svg">
+        </object>
+        <object class="animation" id="twentyfive">
+            <img src="img/Static.svg">
+        </object>
+        
+    </div>
+    
+    <div id="#portfolio" class="portfolio">
+        <h1 style="background-color:#5a0033">
+            PORTFOLIO
+        </h1>
+  
+        <div class="container">
+            <div class="row1">
+             <img id="ntest" src="img/Content/Andy%20Griffin%20Stamp%20of%20Approvel%20KDXU%20Charry%20Creek%20Media%20Scuff.png" style="width: 80%; margin-left: 20%; ">
+            </div> 
+            <div class="row2">
+                <h1>ANDY GRIFFON STICKER</h1>
+                <p> on display at Charry Creek Media Stations</p>
+            </div>
         </div>
-        <div class="gallery">
-            <a href="img/portfolio-3.jpg" target="_blank">
-                <img src="img/portfolio-3.jpg" alt="portfolio1" width="900px" height="600px">
-            </a>
+        <div class="container">
+            <div class="row2">
+            <h1>DEK NAEW MENU</h1>
+            <p> taiwanese styled restaurant consept</p>
+            </div> 
+            <div class="row1">
+                <img class="testtwo" src="img/Content/Dek%20Naew%20Menu%20FINAL.png" style="width:40%;">
+                 <img class="testtwo" src="img/Content/Dek%20Naew%20Menu%20FINAL2.png" style="width:40%;">
+            </div>
+        </div>
+            <div class="container">
+            <div class="row1">
+                <table>
+                    <tr>
+                        <th>
+                            <img class="testthree" src="img/Content/card/Artboard%201%20copy%2049.png" style="width: 60%; padding-left: 160px">
+                        </th>
+                        <th>
+                            <img class="testthree" src="img/Content/card/Artboard%201%20copy%2052.png" style="width: 72%;">
+                        </th>
+                    </tr>
+                    <tr >
+                        <th>
+                            <img class="testthree" src="img/Content/card/Artboard%201%20copy%2044.png" style="width: 60%; padding-left: 160px">
+                        </th>
+                        <th>
+                            <img class="testthree" src="img/Content/card/Artboard%201%20copy%2053.png" style="width: 72%;">
+                        </th>
+                    </tr>
+                </table>
+            </div> 
+            <div class="row2">
+                <h1>PLAYING CARDS</h1>
+                <p> consepts for a diffrent kind of playing cards</p>
+            </div>
+        </div>
+         <div class="container">
+            <div class="row2">
+            <h1>POLYGONAL</h1>
+            <p> taking natral geographic photos and turning them into something a little more</p>
+            </div> 
+            <div class="row1">
+                <img id="testfour" src="img/Content/Durtal%20Turtal.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="container" style="margin-bottom: 300px">
+            <div class="row1">
+             <img id="testfive" src="img/Content/Rogue%20Tutor%20Magazean%20Covor.jpg" style="width: 80%; margin-left: 20%; ">
+            </div> 
+            <div class="row2">
+                <h1>HIGHLAND TUTOR </h1>
+                <p> concept for a magazine for a fantasy genre</p>
+            </div>
+        </div>
+        <p>MORE COMMING SOON!!!</p>
+    </div>
+    
+    <div id="grad">
+        <object>
+            <embed src="img/Grandint.svg">
+        </object>
+    </div>
+    
+     <!-- this is the about me portion of the website page 8000px away to the left. aka resume -->
+    
+    
+    <div id="#aboutme" class="aboutMe">
+        <h1 style="">
+            ABOUT ME
+        </h1>
+        <div>
+            <object id="hex">
+                <embed id="hex" src="img/True%20Hex.svg">
+            </object>
+        </div>
+        <div id="text">
+            <h2>My name is Cameron Taylor I am a Graphic Designer, UI/UX Designer, and Programer.</h2>
+        </div>
+        
+        <div id="contentContanment">
+            <div class="pannalOptions" id="pannalOne">
+                <h2 style="margin-bottom: 20px">
+                    The Bottom Line
+                </h2>
+                <p class="pannalQuote" >
+                    " Everyone tells you to not judge a book by its cover
+                </p>
+                <p class="pannalQuote" >
+                    but they will anyway
+                </p>
+                <p class="pannalQuote" >
+                    so you might as well have a good cover. "
+                </p>
+                
+                <p>
+                These words have shaped my vission on my carrer and my goal to be a Graphic Designer/programer
+                </p>
+    
+                <h2 style="opacity: 0">
+                    invisible text ;)
+                </h2>
+                <p>
+                HTML, JavaScript, UI/UX. I cando it all
+                </p>
+                <p>
+                So if you need assistance contact me <a id="link" onclick="openNav()">here.</a>
+                </p>
+                
+            </div>
+            <div class="pannalOptions" id="pannalTwo">
+                <a href="javascript:void(0)" class="othClosebtn" onclick="twoCl(); oneOp();">X</a>
+                <h1>The second pannal</h1>
+            </div>
+            <div class="pannalOptions" id="pannalThree">
+                <a href="javascript:void(0)" class="othClosebtn" onclick="threeCl(); oneOp();">X</a>
+                <h1>The third pannal</h1>
+            </div>
+            <div class="pannalOptions" id="pannalFour">
+                <a href="javascript:void(0)" class="othClosebtn" onclick="fourCl(); oneOp();">X</a>
+                <h1>The forth pannal</h1>
+            </div>
+            <div class="pannalOptions" id="pannalFive">
+                <a href="javascript:void(0)" class="othClosebtn" onclick="fiveCl(); oneOp();">X</a>
+                <h1>The fifth pannal</h1>
+            </div>
+            <div class="pannalOptions" id="pannalSix">
+                <a href="javascript:void(0)" class="othClosebtn" onclick="sixCl(); oneOp();">X</a>
+                <h1>The sixth pannal</h1>
+            </div>
+        </div>
+        
+        <div id="icons">
+
+            <input type="checkbox" class="btnControl" id="ila"/>
+            <label class="btn" for="ila"> 
+                <img class="icon" src="img/Content/illistratorLogo.svg" onclick="twoOp(); oneCl(); threeCl(); fourCl(); fiveCl(); sixCl();">
+            </label>
+
+
+            <input type="checkbox" class="btnControl" id="photo"/>
+            <label class="btn" class="icon" for="photo"> 
+                <img class="icon" src="img/Content/PhotoShopIcon.svg" onclick="twoCl(); oneCl(); threeOp(); fourCl(); fiveCl(); sixCl();">
+            </label>
+
+
+            <input type="checkbox" class="btnControl" id="desigh">
+            <label class="btn" for="desigh">
+                <img  class="icon" src="img/Content/inDesignLogo.svg" onclick="twoCl(); oneCl(); threeCl(); fourOp(); fiveCl(); sixCl();">
+            </label>
+
+
+            <input type="checkbox" class="btnControl" id="after"/>
+            <label class="btn" for="after">
+                <img class="icon" src="img/Content/afterEffectsLogo.svg" onclick="twoCl(); oneCl(); threeCl(); fourCl(); fiveOp(); sixCl();"> 
+            </label>
+
+
+            <input type="checkbox" class="btnControl" id="premier"/>
+            <label class="btn" for="premier">
+                <img class="icon" src="img/Content/PremiereLogo.svg" onclick="twoCl(); oneCl(); threeCl(); fourCl(); fiveCl(); sixOp();"> 
+            </label>
+            </div>
+
+            <div class="containment" >
+            <object class="animation2">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="first">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="second">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="third">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="forth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="fifth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="sixth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="seventh">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="eighth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="nine">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="ten">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="eleven">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="twelve">
+                <img src="img/Static2.svg">
+            </object>
+        </div>
+            <div class="containment" style="margin-top:500px;margin-left:5px">
+            <object class="animation2">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="first">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="second">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="third">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="forth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="fifth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="sixth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="seventh">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="eighth">
+                <img src="img/Static2.svg">
+            </object>
+            <object class="animation2" id="nine">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="ten">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="eleven">
+                <img src="img/Static2.svg">
+            </object>
+           <object class="animation2" id="twelve">
+                <img src="img/Static2.svg">
+            </object>
         </div>
     </div>
     
-    <footer>
-            <div class="row">
-            </div>
-                <div class="column">
-                    <p>
-                        <a href="contact.html">
-                        CONTACT INFORMATION
-                        </a>
-                    </p> 
-                    <p>
-                        <a href="portfolio.html">
-                            PORTFOLIO-DESIGN WORK
-                        </a>
-                    </p>
-                </div>
+    
+    <div class="DumbyDiv" style="position: absolute; left:10000px;">
+        <p>you shouldn't be here.</p>
+    </div>
+    
+  <!-- all scripts below this -->
+  
+    
+    
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-            <div class="column">
-                <p>
-                    Site designed by:
-                </p>
-                <p> 
-                    Mallory Pettegrew
-                </p>
-            </div>
-    </footer>
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function(){
+              console.log('particles.json loaded...');
+            });
+        </script>
+    
+
+    
+    <script src="https://www.kodhus.com/moveit.0.4.js"></script>
+    
+    <script>
+        
+        function hide(){
+            document.getElementById("loading").style.display = "none";
+        }
+        
+        
+        
+        function loading(){
+           // var container = document.getElementById("loading");
+          //  var content = container.innerHTML;
+          //  container.innerHTML=content;
+            
+            document.getElementById("loading").style.display = "block";
+        
+            setTimeout(hide,1000);
+            console.log("hello its working"); 
+        }
+        
+       function start(){
+        document.getElementById('#portfolio').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function home(){
+        document.getElementById('#home').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function contact(){
+        document.getElementById('#contact').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function about(){
+        document.getElementById('#aboutme').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        
+        function openNav(){
+            document.getElementById("sidepanal").style.width="350px";
+        }
+        function closeNav(){
+            document.getElementById("sidepanal").style.width="0";
+        }
+        
+        
+        function noScrole(){
+            document.getElementById("body").style.overflowY="hidden";
+        }
+        
+        function resumeScrole(){
+            document.getElementById("body").style.overflowY="scroll";
+        }
+        
+       function oneOp(){
+            document.getElementById("pannalOne").style.opacity="1";
+        }
+        
+        function oneCl(){
+            document.getElementById("pannalOne").style.opacity="0";
+        }
+        
+        function twoOp(){
+            document.getElementById("pannalTwo").style.height="700px";
+            document.getElementById("pannalTwo").style.opacity="1";
+        }
+        
+        function twoCl(){
+            document.getElementById("pannalTwo").style.height="0px";
+            document.getElementById("pannalTwo").style.opacity="0";
+        }
+        function threeOp(){
+            document.getElementById("pannalThree").style.height="700px";
+            document.getElementById("pannalThree").style.opacity="1";
+        }
+        
+        function threeCl(){
+            document.getElementById("pannalThree").style.height="0px";
+            document.getElementById("pannalThree").style.opacity="0";
+        }
+        function fourOp(){
+            document.getElementById("pannalFour").style.height="700px";
+            document.getElementById("pannalFour").style.opacity="1";
+        }
+        
+        function fourCl(){
+            document.getElementById("pannalFour").style.height="0px";
+            document.getElementById("pannalFour").style.opacity="0";
+        }
+        function fiveOp(){
+            document.getElementById("pannalFive").style.height="700px";
+            document.getElementById("pannalFive").style.opacity="1";
+        }
+        
+        function fiveCl(){
+            document.getElementById("pannalFive").style.height="0px";
+            document.getElementById("pannalFive").style.opacity="0";
+        }
+        function sixOp(){
+            document.getElementById("pannalSix").style.height="700px";
+            document.getElementById("pannalSix").style.opacity="1";
+        }
+        
+        function sixCl(){
+            document.getElementById("pannalSix").style.height="0px";
+            document.getElementById("pannalSix").style.opacity="0";
+        }
+    </script>
 </body> 
+    
+<footer>   
+    <p>©themythicphoenix.com 2019 all rights reserved</p>
+    <p>this website was created by Cameron Taylor</p>
+</footer>
 </html>

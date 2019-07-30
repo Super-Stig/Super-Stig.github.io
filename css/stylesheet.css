@@ -1,126 +1,659 @@
 body{
-	background-color: #fadde1;
+	background-color: #31112d;
 	margin: 0 auto;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	color: #ffffff;
-	font-family: "Nunito", sans-serif;
+	font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.logo{
+	display: block;
+	margin: auto 0;
+    max-width:1000px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+#grad{
+    z-index: -2;
+    position: static;
+    display: block;
+}
+#particles-js{
+    background: none;
+    height: 1300px;
+    position: relative;
+    z-index: 0;
+}
+
+#particles2-js{
+    background: none;
+    display: block;
+    height: 1300px;
+    position: absolute;
+    z-index: -10;
+}
+.row1{
+    float:left;
+    width:50%;
+}
+
+.row2{
+    float:left;
+    align-content: center;
+    text-align: center;
+    margin-top: 15%;
+    width:50%;
+}
+
+
+
+div.container{
+    content: "";
+    display:table;
+    clear:both;
+    margin-top:6%; 
+    margin-bottom: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+containertwo{
+    clear:both;
+    margin-top:6%; 
+    margin-bottom: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper{
+    position: absolute; 
+    top: 100px; 
+    left: 6000px;
+    width: 2000px;
+   
+}
+#mail{
+    text-align: center;
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+#testText{
+    max-width: 700px;
+    margin-top: 300px;
+    position:absolute;
+    left: 570px;
+    font-size: 40pt;
+}
+#textBox{
+   margin-right: 300pt;
+    position: absolute;
+    margin-top: 200pt;
+    opacity: .8;
+}
+
+
+
+p#ContactID{
+    left:20pt;
+    top:7pt;
+    text-align:left;
+}
+
+
+
+.loading{
+    max-width: 140px;
+}
+
+
+img.smallLogo{
+	max-width:145px;
+
 }
 
 h1{
-	color:#ad5864;
-	padding:20px;
+    text-align:center;
+    margin: auto;
+    font-size: 60pt;
 }
 
 p{
 	font-size: 125%;
+    z-index: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.aboutMe{
+    width:1800px;
+    height: 1200px;
+    position: absolute; 
+    top:4000px; 
+    left: 6000px;
+}
+#hex{
+    width: 700px;
+    position: absolute;
+    margin-top: 100px;
 }
 
-nav{
-	background-color: #ad5864;
+#icons{
+    margin:auto;
+    position: absolute;
+    z-index: 1;
+    bottom:60px;
+    right:550px;
+}
+
+#contentContanment{
+    position: absolute;
+    right:0px;
+    top: 280px;
+    height: 700px;
+    width:1050px;
+}
+
+.othClosebtn{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+}
+
+#pannalOne{
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+.pannalOptions{
+    transition: 0.5s;
+    overflow-x: hidden;
+    height:700px;
+    width: 1050px;
+    position: absolute;
+    
+}
+
+
+#pannalTwo, #pannalThree, #pannalFour, #pannalFive, #pannalSix {
+    height: 0px;
+    transition: 0.5s;
+}
+
+.pannalQuote{
+    margin: 0px; 
+    font-family:fantasy
+}
+
+#link{
+    transition: 0.5s;
+}
+
+#link:hover{
+    cursor: pointer;
+    font-size: 20pt;
+    transition: 0.5s;
+}
+
+.icon{
+    width:80px;
+    margin:30px;
+    transform-origin: center;
+    transition: 0.5s;
+}
+
+
+.icon::before{
+    position: absolute;
+    z-index: 100;
+}
+
+input[type=checkbox]{
+    display:none;
+}
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+input[type=checkbox]:checked + label > img{
+    animation: bounce 1s 2;
+}
+
+
+
+
+
+.icon:hover {
+    width:90px;
 }
 
 ul{
-	display: inline-block;
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 10px;
-	width: auto; 
+	font-size: 20pt;
+	margin:0;
+	list-style-type:none;
+	max-width:320px;
+	max-height:320px;
+	background-color:none;
+	position:fixed;
+    z-index: 1;
+    transition: 0.5s;
 }
 
 li{
-	float:right;
-}
-li a{
-	display: block;
-	color: #fadde1;
-	text-align: center;
-	padding: 15px;
-	text-decoration: none;
-}
-
-li a:hover{
-	background-color: #9bb9c7
-}
-
-p#intro{
-	color: #ad5864
-	padding: 0px 30px 10px 30px;
-}
-
-p#intro2{
-	color:#ad5864;
-	padding: 0px 10px 10px 10px;
-}
-p a{
-	color:#ffffff;
-	text-decoration: none;
-}
-.column{
-	background-color: #9bb9c7;
-	float: left;
-	width: 50%;
-}
-.column2{
-	background-color: #ad5864;
-	float: left;
-	width: 50%;
-}
-.row:after{
-	content:"";
-	display: table;
-	clear:both;
-}
-.header1{
-	color:#ffffff;
-}
-div.container{
-	background-color: #ad5864;
-	padding: 10px;
-}
-
-div.gallery{
-	display: inline-block;
-	padding: 5px;
-	padding-bottom:10px;
-	margin:auto;
-	width: 30%;
-}
-
-div.gallery:hover{
-	opacity: 0.5;
-}
-
-div.gallery img{
-	width:100%;
-	height: auto;
-}
-footer{
-	background-color: #9bb9c7
-	padding:20px;
 	display:block;
-}
-.contact-column{
-	background-color:#9bb9c7;
-	float:left;
-	width:50%;
-}
-.contact-column2{
-	background-color:#ad5864;
-	float:left;
-	width:50%;
-}
-p.contact-column{
-	font-size: 125%
-}
-p.contact-column2{
-	font-size: 125%
+    z-index: 1;
+    transition: 0.5s;
 }
 
-#aboutpic{
-	width:100%;
-	max-width: 600px;
+li a{
+	color:#ffffff;
+	display:block;
+	padding-left:auto;
+	padding-bottom:50%;
+	padding-top:50%;
+	padding-right:auto;
+	text-align: center;
+	text-decoration:none;
+    z-index: 1;
+    transition: 0.5s;
 }
+
+.logo{
+    animation: jackInTheBox 1s;
+    transition: 0.5s;
+}
+.logo:hover{
+    animation: jackInTheBox 1s 1; 
+}
+
+
+/*drop down element for contact information*/
+
+.sidepanal{
+    width:0;
+    position: fixed;
+    z-index: 1;
+    height: 200px;
+    width:0px ;
+    top: 620px;
+    left: 240px;
+    background-color: #720038;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding:0px;
+    opacity: 30%;
+}
+
+.closebtn{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.sidepanal .closebtn{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size:  26px;
+}
+
+/* all of the hover elements*/
+
+
+
+
+#logo:hover{
+	
+    animation: new 1s infinite alternate ;
+    animation-delay: 2s;
+    transition: 1s;
+}
+
+#home:hover{
+	animation: bounce 1s infinite;
+    transition: 0.5s;
+}
+
+#portfolio:hover{
+	animation: bounce 1s infinite;
+    transition: 0.5s;
+}
+
+#contact:hover{
+	animation: bounce 1s infinite;
+    transition: 0.5s;
+
+}
+
+#aboutme:hover{
+	animation: bounce 1s infinite;
+    transition: 0.5s;
+}
+
+
+#ntest:hover{
+    animation: spin 1s 1 linear;
+    animation-delay: 3s;
+    transition: 0.5s;
+}
+
+.testtwo:hover{
+    animation: jackInTheBox 1s infinite alternate;
+    animation-delay: 3s;
+    transition: 0.5s;
+    animation-direction: alternate-reverse;
+}
+.testthree:hover{
+    animation: hinge 2s 1 linear;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    transition: 0.5s;
+}
+#testfour:hover{
+    animation: bounce 1s infinite;
+    animation-delay: 3s;
+    transition: 0.5s;
+}
+#testfive:hover{
+    animation: new 2s infinite alternate;
+    animation-delay: 3s;
+    transition: 1s;
+}
+
+
+/* the static eliments for motion */
+
+.containment{
+    margin-left: 300px;
+    margin-right: 300px;
+    position: absolute;
+    z-index: -1;
+}
+
+.animation{
+    position: absolute;
+    width: 70px;
+    animation: staceis 30s infinite alternate;
+}
+.animation2{
+    position: absolute;
+    width: 70px;
+    animation: new 30s infinite alternate;
+}
+
+#first{
+    margin-left: 50px;
+    animation-direction: alternate-reverse;
+    animation-duration: 24s;
+    display: none;
+}
+#second{
+    margin-left: 160px;
+    animation-duration: 25s;
+}
+#third{
+    margin-left: 240px;
+    animation-direction: alternate-reverse;
+    animation-duration: 29s;
+}
+#forth{
+    margin-left: 320px;
+    animation-duration: 20s;
+    display: none;
+}
+#fifth{
+    margin-left: 400px;
+    animation-direction: alternate-reverse;
+    animation-duration: 28s;
+}
+#sixth{
+    margin-left: 480px;
+    animation-duration: 22s;
+}
+#seventh{
+    margin-left: 560px;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+}
+#eighth{
+    margin-left: 640px;
+    animation-duration: 32s;
+    display: none;
+}
+#nine{
+    margin-left: 720px;
+    animation-direction: alternate-reverse;
+    animation-duration: 34s;
+}
+#ten{
+    margin-left: 800px;
+    animation-duration: 31s;
+    display: none;
+}
+#eleven{
+    margin-left: 880px;
+    animation-direction: alternate-reverse;
+    animation-duration: 35s;
+}
+#twelve{
+    margin-left: 960px;
+    animation-duration: 20s;
+    
+}
+#thirteen{
+    margin-left: 1040px;
+    animation-direction: alternate-reverse;
+    display: none;
+}
+#fourteen{
+    margin-left: 1120px;
+    animation-duration: 22s;
+    display: none;
+}
+#fifteen{
+    margin-left: 1200px;
+    animation-direction: alternate-reverse;
+    animation-duration: 26s;
+}
+#sixteen{
+    margin-left: 1280px;
+    animation-duration: 29s;
+}
+#seventeen{
+    margin-left: 1360px;
+    animation-direction: alternate-reverse;
+    animation-duration: 28s;
+    display: none;
+}
+#eighteen{
+    margin-left: 1440px;
+    animation-duration: 33s;
+}
+#nineteen{
+    margin-left: 1520px;
+    animation-direction: alternate-reverse;
+    animation-duration: 26s;
+    display: none;
+}
+#twenty{
+    margin-left: 1600px;
+    animation-duration: 35s;
+    display: none;
+}
+#twentyone{
+    margin-left: 1680px;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+}
+#twentytwo{
+    margin-left: 1760px;
+    animation-duration: 29s;
+}
+#twentythree{
+    margin-left: 1840px;
+    animation-direction: alternate-reverse;
+    animation-duration: 23s;
+}
+#twentyfour{
+    margin-left: 1920px;
+    animation-duration: 28s;
+}
+#twentyfive{
+    margin-left: 2000px;
+    animation-direction: alternate-reverse;
+    animation-duration: 27s;
+    display: none;
+}
+
+/*the keyframe animations*/
+
+@keyframes new{
+    from{
+        transform-style:flat;
+        transform: translate3d(0, 0px, 0);
+        
+        animation-timing-function: linear;
+    }
+    to{
+        transform: translate3d(700px, 600px, 0);
+      
+        animation-timing-function: linear;
+            
+    }
+}
+}
+
+@keyframes spin{
+   from{
+        transform-origin:center;
+        transform:rotate3d(0,0,9,360deg);
+    }
+    to{
+        transform-origin:center;
+        transform:rotate3d(0,0,0);
+    }
+}
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+
+@keyframes hinge {
+  0% {
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%,
+  60% {
+    transform: rotate3d(0, 0, 1, 80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  40%,
+  80% {
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes staceis{
+    from{
+        transform-style: flat;
+        transform: translateY(0pt);
+        animation-timing-function: linear;
+    }
+    to{
+        transform: translateY(4700pt);
+        animation-timing-function: linear;
+            
+    }
+}
+
+#first{
+    position: absolute;
+    padding-left: 30px;
+}
+
+
+
 
 @media screen and (max-width: 600px){
 	.column{
@@ -132,10 +665,14 @@ p.contact-column2{
 	.contact-column{
 		width:100%;
 	}
-	.contact-column2{
+	ul{
 		width:100%;
 	}
-	.gallery{
+	.logo{
 		width:100%;
+	}
+	.smallLogo{
+		width:50%;
 	}
 }
+
