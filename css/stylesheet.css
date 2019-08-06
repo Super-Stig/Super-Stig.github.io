@@ -9,6 +9,13 @@ body{
     overflow-y: scroll;
 }
 
+.backgroundImage{
+    z-index: -1000;
+    position: absolute;
+    width:300%;
+    left:120%;
+}
+
 .logo{
 	display: block;
 	margin: auto 0;
@@ -84,7 +91,6 @@ containertwo{
     text-align: center;
     text-decoration: none;
     color:#ffffff;
-    
 }
 
 h2{
@@ -199,7 +205,7 @@ p{
 
 .pannalQuote{
     margin: 0px; 
-    font-family:fantasy
+    font-family:fantasy;
 }
 
 #link{
@@ -295,7 +301,6 @@ li a{
     position: fixed;
     z-index: 1;
     height: 200px;
-    width:0px ;
     top: 620px;
     left: 240px;
     background-color: #720038;
@@ -641,7 +646,7 @@ li a{
         animation-timing-function: linear;
     }
     to{
-        transform: translateY(4700pt);
+        transform: translateY(500%);
         animation-timing-function: linear;
             
     }
@@ -650,29 +655,152 @@ li a{
 #first{
     position: absolute;
     padding-left: 30px;
+    
+ 
+}
+
+
+footer p{
+    font-size: 30px; !important
 }
 
 
 
-
-@media screen and (max-width: 600px){
-	.column{
+@media screen and (max-width: 1080px){
+    
+    .column{
 		width: 100%;
 	}
+    .backgroundImage{
+        width:400%;
+        left:450%;
+    }
 	.column2{
 		width: 100%;
 	}
 	.contact-column{
 		width:100%;
 	}
-	ul{
-		width:100%;
-	}
+    ul {
+        font-size:50pt;
+        max-width:1700px;
+    }
+    li{
+        display:inline;
+        float:left;
+    }
+    li a{
+        float:left;
+        display:block;
+        padding:20px;
+        padding-top:100px;
+    }
+    
+    .containment{
+        display:none;
+    }
+    .portfolio{
+        width:170%;
+    }
+    #particles-js{
+        opacity:0;
+        margin-bottom:170%;
+    }
+    
+    .row1{
+        float:none;
+        width:90%;
+        display: block;
+        
+    }
+    
+    .row2{
+        width:90%;
+        font-size:30px;
+    }
+
 	.logo{
-		width:100%;
+		width:230%;
+        margin-top:105%;
+        margin-left:35%;
+        
 	}
+  
+    .container{
+        width:95%;
+    }
+    
 	.smallLogo{
-		width:50%;
+		width:80%;
 	}
+    
+    .sidepanal{
+    width:0px;
+    position: fixed;
+    z-index: 1;
+    height: 1000px;
+    top: 2000px;
+    left: 0px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding:0px;
+    opacity: 30%;
+    font-size: 40pt
+}
+
+    .closebtn{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.sidepanal .closebtn{
+    position: absolute;
+    top:10px;
+    right: 100px;
+    font-size:  100px;
+}
+    #grad{
+        width:1700px;
+    }
+    
+    footer{
+        width:1620px;
+    }
+    
+    footer p{
+        font-size: 60px;
+    
+        
+}
+    
+    .aboutMe #hex{
+        left:200px;
+        width:1000px;
+        z-index: -1;
+    }
+    .aboutMe h1{
+        opacity: 0;
+    }
+    .aboutMe #text{
+        margin-top: 1150px;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 50px;
+        z-index: 1;
+    }
+    
+    .aboutMe #icons{
+        top:1580px;
+    }
+    
+    .othClosebtn{
+        width:100px;
+    }
+    #contentContanment{
+        top:1700px;
+        left: 400px;
+    }
 }
 
