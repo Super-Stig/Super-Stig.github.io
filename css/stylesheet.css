@@ -12,7 +12,7 @@ body{
 .backgroundImage{
     z-index: -1000;
     position: absolute;
-    width:300%;
+    width:200%;
     left:120%;
 }
 
@@ -684,16 +684,20 @@ footer p{
     ul {
         font-size:50pt;
         max-width:1700px;
+        z-index: 10000;
+        background-color: #31112d;
     }
     li{
         display:inline;
         float:left;
+        background-color: #31112d;
     }
     li a{
         float:left;
         display:block;
         padding:20px;
         padding-top:100px;
+        background-color: #31112d;
     }
     
     .containment{
@@ -739,7 +743,7 @@ footer p{
     position: fixed;
     z-index: 1;
     height: 1000px;
-    top: 2000px;
+    top: 1000px;
     left: 0px;
     overflow-x: hidden;
     transition: 0.5s;
@@ -791,14 +795,11 @@ footer p{
         z-index: 1;
     }
     
-    .aboutMe #icons{
-        top:1580px;
-    }
-    
     .othClosebtn{
         width:100px;
     }
     #contentContanment{
+        width:0px;
         top:1700px;
         left: 400px;
     }
